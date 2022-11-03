@@ -15,6 +15,18 @@ namespace Exercise_2
             int[] adi = new int[27];
             char ch;
 
+            //tentukan banyaknya data (n)
+            while (true)
+            {
+                Console.WriteLine("Masukkan data array");
+                string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if ((n > 0) && (n <= 27))
+                    break;
+                else
+                    Console.WriteLine("Data aray minimal 1 maksimal 27");
+            }
+
         }
     }
 }
