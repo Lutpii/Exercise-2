@@ -18,7 +18,7 @@ namespace Exercise_2
             //tentukan banyaknya data (n)
             while (true)
             {
-                Console.WriteLine("Masukkan data array");
+                Console.Write("Masukkan data array");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if ((n > 0) && (n <= 27))
@@ -54,6 +54,15 @@ namespace Exercise_2
                 }
                 adi[AR + 1] = temp;
             }
+
+            //Cetak data setelah proses pengurutan
+            Console.WriteLine();
+            Console.WriteLine("Data sesudah proses pengurutan ");
+            for (i = 0; i <= n - 1; i++)
+            {
+                Console.Write("{0} ", adi[i]);
+            }
+            Console.ReadKey();
         }
     }
 }
