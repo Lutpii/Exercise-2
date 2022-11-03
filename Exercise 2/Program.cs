@@ -10,6 +10,11 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
+            //mendeklarasikan array
+            int i, n, AR, min_index, temp;
+            int[] adi = new int[27];
+            char ch;
+
         }
     }
 }
