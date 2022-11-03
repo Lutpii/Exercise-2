@@ -38,7 +38,7 @@ namespace Exercise_2
             Console.Write("\nData sebelum proses pengurutan\n");
             for (i = 0; i <= n - 1; i++)
             {
-                Console.Write("{0} ", adi[i]);
+                Console.Write("{0} \n", adi[i]);
             }
 
             //PROSES Insertion Sort
@@ -60,7 +60,7 @@ namespace Exercise_2
             Console.WriteLine("Data sesudah proses pengurutan ");
             for (i = 0; i <= n - 1; i++)
             {
-                Console.Write("{0} ", adi[i]);
+                Console.Write("{0} \n", adi[i]);
             }
             Console.ReadKey();
         }
