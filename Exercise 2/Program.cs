@@ -27,6 +27,12 @@ namespace Exercise_2
                     Console.WriteLine("Data aray minimal 1 maksimal 27");
             }
 
+            //input data ke array sebanyak n data
+            for (i = 0; i <= n - 1; i++)
+            {
+                Console.Write("Data ke {0} : ", i + 1);
+                adi[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
