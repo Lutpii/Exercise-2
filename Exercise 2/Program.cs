@@ -18,7 +18,7 @@ namespace Exercise_2
             //tentukan banyaknya data (n)
             while (true)
             {
-                Console.Write("Masukkan data array");
+                Console.Write("Masukkan data array : ");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if ((n > 0) && (n <= 27))
