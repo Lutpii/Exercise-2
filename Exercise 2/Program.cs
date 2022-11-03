@@ -40,6 +40,20 @@ namespace Exercise_2
             {
                 Console.Write("{0} ", adi[i]);
             }
+
+            //PROSES Insertion Sort
+            AR = 0;
+            for (i = 1; i <= n - 1; i++)
+            {
+                temp = adi[i];
+                AR = i - 1;
+                while ((AR >= 0) && (adi[AR] >= temp))
+                {
+                    adi[AR + 1] = adi[AR];
+                    AR--;
+                }
+                adi[AR + 1] = temp;
+            }
         }
     }
 }
