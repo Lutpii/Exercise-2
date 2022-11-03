@@ -33,6 +33,13 @@ namespace Exercise_2
                 Console.Write("Data ke {0} : ", i + 1);
                 adi[i] = Convert.ToInt32(Console.ReadLine());
             }
+
+            //Cetak data sebelum proses pengurutan
+            Console.Write("\nData sebelum proses pengurutan\n");
+            for (i = 0; i <= n - 1; i++)
+            {
+                Console.Write("{0} ", adi[i]);
+            }
         }
     }
 }
